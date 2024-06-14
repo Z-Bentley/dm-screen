@@ -4,12 +4,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 // import HelloWorldView from '../views/HelloWorldView.vue'
 import ConditionsView from '../views/ConditionsView.vue'
 import HomeView from '../views/HomeView.vue'
+import AbilityScores from '@/components/AbilityScores.vue';
 
 // Routes
 const routes = [
     {
         path: '/',
-        name: 'Hello',
+        name: 'home',
         component: HomeView
     },
     {
@@ -17,6 +18,11 @@ const routes = [
         name: 'conditions',
         component: ConditionsView
     },
+    {
+        path: '/ability-scores',
+        name: 'ability-scores',
+        component: AbilityScores
+    }
 ];
 
 const router = createRouter({

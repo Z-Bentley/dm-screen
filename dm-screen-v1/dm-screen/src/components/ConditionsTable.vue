@@ -69,12 +69,15 @@ export default {
 #conditions-table{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
     /* max-width: 800px;
     min-width: 800px; */
     border: 4px solid red;
     border-radius: 18px;
     background-image: url('../img/phb_background.jpg');
     padding: 16px;
+    color: black;
 }
 
 
@@ -88,6 +91,7 @@ h1{
 
 #condition-name{
     font-size: 1.5em;
+    /* color: black; */
 }
 
 #desc{
