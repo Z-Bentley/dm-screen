@@ -64,12 +64,9 @@ export default{
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
-    /* flex-direction: row; */
     gap: 10px;
     margin: 10px;
-    /* justify-content: space-between; */
     justify-content: center;
-    /* align-items: center; */
 }
 
 .ability-tile{
@@ -79,7 +76,6 @@ export default{
     min-width: 600px;
     padding: 20px;
     margin: 5px;
-    /* box-sizing: border-box; */
     background-color: black;
 }
 </style>
